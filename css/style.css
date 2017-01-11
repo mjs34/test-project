@@ -1,0 +1,20 @@
+html {
+  font-size: 100%; }
+  @media all and (min-width: 800px) {
+    html {
+      font-size: 112.5%; } }
+  @media all and (min-width: 1200px) {
+    html {
+      font-size: 125%; } }
+
+html {
+  font-size: 100%; }
+
+@media all and (min-width: 800px) {
+  html {
+    font-size: 112.5%; } }
+@media all and (min-width: 1200px) {
+  html {
+    font-size: 125%; } }
+p {
+  color: #676767; }

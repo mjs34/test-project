@@ -1,0 +1,38 @@
+@import "../node_modules/typi/scss/typi";
+
+$breakpoints: (
+  small: 800px,
+  large: 1200px
+);
+
+$typi: (
+  null: 16px,
+  small: 18px,
+  large: 20px
+);
+
+html {
+  @include typi-base();
+}
+
+html {
+  font-size: 100%;
+}
+
+@media all and (min-width: 800px) {
+  html {
+    font-size: 112.5%;
+  }
+}
+
+@media all and (min-width: 1200px) {
+  html {
+    font-size: 125%;
+  }
+}
+
+$gray:#676767;
+
+p {
+  color:$gray;
+}
